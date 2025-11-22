@@ -1,0 +1,10 @@
+.dropdown-menu {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar{
+    width: 121%;
+    background-color: red;
+  }
+}

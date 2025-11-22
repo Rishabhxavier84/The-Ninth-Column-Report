@@ -1,0 +1,19 @@
+h2 {
+  text-align: center;
+}
+
+.newsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center the heading */
+  padding: 1rem;
+}
+
+.newsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centers all cards */
+  gap: 1.5rem; /* spacing between cards */
+  max-width: 1200px; /* keeps the content balanced in the center */
+  margin: 0 auto; /* equal space from both sides of browser */
+}
